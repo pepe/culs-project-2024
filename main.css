@@ -1,0 +1,90 @@
+/* 1. Basic reset and layout styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 2. Body styling */
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #000;                   /* Black text color */
+    background-color: #fff;         /* White background */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 1rem;                /* Set base font-size for rem units */
+  }
+  
+  /* 3. Header styling */
+  header {
+    width: 100vw;
+    padding: 2vh 3vw;
+    background-color: #444;        /* Dark background for header */
+    color: #fff;                   /* White text in header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header span {
+    font-size: 1.8rem;             /* Header title font size */
+    font-weight: 800;
+  }
+  
+  header nav {
+    text-align: right;             /* Right-aligns nav content within header */
+  }
+  
+  /* 4. Main content styling */
+  main {
+    display: flex;
+    width: 1600vw;
+  }
+  
+  /* 5. Section styling */
+  section {
+    width: 80vw;
+    height: 80vh;
+    padding: 10vh 10vw;
+  }
+  
+  section h1 {
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  /* 6. Footer styling */
+  footer {
+    width: 100vw;
+    padding: 2vh 3vw;
+    background-color: #444;        /* Dark background for footer */
+    color: #fff;                   /* White text in footer */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer h1 {
+    font-size: 1.2rem;             /* Footer title font size */
+  }
+  
+  footer span {
+    text-align: left;              /* Left-aligns footer span */
+    font-size: 0.8rem;
+  }
+  
